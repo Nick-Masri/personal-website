@@ -1,0 +1,68 @@
+#header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.navbar {
+    background-color: #4BC2BF;
+}
+
+
+#welcome {
+    background-color: #43AA8B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+}
+
+body h1,
+body h2 {
+    color: #254441;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.buttons button {
+    margin: 10px;
+}
+
+
+.card-img-top {
+    max-height: 190px;
+}
+
+.compliment {
+    font-size: 1.5rem;
+    width: 45%;
+}
+
+
+#personal-img {
+    border-radius: 25px;
+    opacity: 0.9;
+}
+
+
+#about {
+    background-color: #EE6055;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: #4BC2BF;
+}
+
+
+.row {
+    margin: 100px;
+}
