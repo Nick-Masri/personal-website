@@ -11,49 +11,50 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <title>Nicholas Masri</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#nav" data-offset="0">
 
-    <!--
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
-        </div>
+    <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="nav-link light" href="#welcome">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#about">Activities</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#contact">Contact Me</a>
     </nav>
--->
-
     <div id="welcome" class="section">
+        <div id="center">
+            <img src="personalpic.png" alt="" id="personal-img">
+            <h1 id="header">I'm Nicholas Masri</h1>
 
-        <img src="personalpic.png" alt="" id="personal-img">
-        <h1 id="header">I'm Nicholas Masri</h1>
+            <h2 class="font-weight-light compliment">A current high school senior at Phillips Academy Andover majoring in Mechanical Engineering and Economics</h2>
 
-        <h2 class="font-weight-light compliment">A current high school senior at Phillips Academy Andover majoring in Mechanical Engineering and Economics</h2>
-
-        <div class="buttons">
-            <button type="button" class="btn btn-outline-light">Contact Me</button>
-            <button type="button" class="btn btn-outline-light">Resume</button>
+            <div class="buttons">
+                <a class="btn btn-outline-light" href="#contact">Contact Me</a>
+                <a class="btn btn-outline-light" href="https://drive.google.com/file/d/1r8zKshsV6Ax-4H-FM_b-kJcjvzPXBKca/view?usp=sharing">Resume</a>
+            </div>
         </div>
-
+        <div class="social">
+            <a href="https://github.com/nick-masri">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="linkedin.com/in/nicholas-masri/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
     </div>
     <div id="about" class="text-center section">
         <div class="container">
-            <h2 class="font-weight-light">Here are some activities I have gotten involved in</h2>
+
+            <h2 class="font-weight-light">Here are some extracurriculars I have gotten involved in</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img class="card-img-top" src="cluster.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Cluster Co-President</h5>
@@ -62,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img class="card-img-top" src="scouts.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Eagle Scout</h5>
@@ -71,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img class="card-img-top" src="prefect.JPG" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Dorm Prefect</h5>
@@ -111,25 +112,34 @@
                 </div>
             </div>
 
-
-
         </div>
     </div>
     <div id="projects">
-
-
+        <div class="icons">
+            <i class="material-icons">
+                description
+            </i>
+        </div>
+        <h2 class="text-center">Projects</h2>
     </div>
     <div id="experience">
 
     </div>
     <div id="contact">
+        <div class="icons">
+            <i class="material-icons">
+                contacts
+            </i>
+        </div>
+        <h2 class="text-center">Contact Me</h2>
         <p>Phone Number: 508-667-6410</p>
         <p>Email Address: nicholasmasri@gmail.com</p>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body></html>
+</body>
+
+</html>

@@ -8,15 +8,29 @@
     background-color: #4BC2BF;
 }
 
+body {
+    position: relative;
+}
 
 #welcome {
     background-color: #43AA8B;
     display: flex;
+    background: linear-gradient(to bottom left, #43AA8B, grey);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#center {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
 
 body h1,
 body h2 {
@@ -31,7 +45,7 @@ body h2 {
 }
 
 
-.buttons button {
+.buttons a {
     margin: 10px;
 }
 
@@ -60,9 +74,71 @@ body h2 {
 
 .card {
     border: 0;
+    margin: 10px;
 }
 
 
 .row {
     margin: 100px;
+}
+
+#projects i {
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    display: inline-block;
+
+}
+
+.social a {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+.social {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+
+
+#projects,
+#about,
+#contact {
+    padding-top: 50px;
+}
+
+#nav {
+    width: 100vw;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 1.2em;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.active {
+    color: white;
+}
+
+#nav a {
+    color: lightgray;
+}
+
+#nav a.active {
+    color: white;
 }
