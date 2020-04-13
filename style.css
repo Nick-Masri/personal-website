@@ -1,5 +1,4 @@
 #header {
-    text-align: center;
     margin-top: 20px;
 }
 
@@ -10,13 +9,7 @@
 
 body {
     position: relative;
-    
 }
-
-body div{
-background-color: #4BC2BF;
-}
-
 
 
 #welcome {
@@ -31,27 +24,24 @@ background-color: #4BC2BF;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
+#main {
+    width: 50%;
+
+}
 
 body h1,
 body h2 {
     color: #254441;
-    text-align: center;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: left;
 }
 
 
 .buttons a {
-    margin: 10px;
+    margin: 10px 0;
     width: 7em;
 }
 
@@ -92,8 +82,6 @@ body h2 {
 }
 
 
-
-
 .icons {
     text-align: center;
 }
@@ -104,7 +92,7 @@ body h2 {
 }
 
 .social a {
-    color: white;
+    color: #333333;
     font-size: 1.5em;
     text-align: center;
     text-decoration: none;
@@ -127,16 +115,16 @@ body h2 {
 }
 
 #nav {
-    width: 100vw;
-    padding: 20px 30px;
-    box-sizing: border-box;
     text-align: right;
     font-size: 1.2em;
     background: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
+    position: fixed;
+    top: 27.6%;
+    left: 15%;
 }
 
 .active {
@@ -144,9 +132,10 @@ body h2 {
 }
 
 #nav a {
-    color:#FFF;
+    color:#94C5CC;
+    text-align: right;
 }
 
 #nav a.active {
-    color: #30343F;
+    color: #333333;
 }
