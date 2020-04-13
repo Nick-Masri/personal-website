@@ -10,12 +10,17 @@
 
 body {
     position: relative;
+    
 }
 
+body div{
+background-color: #4BC2BF;
+}
+
+
+
 #welcome {
-    background-color: #43AA8B;
     display: flex;
-    background: linear-gradient(to bottom left, #43AA8B, grey);
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +52,7 @@ body h2 {
 
 .buttons a {
     margin: 10px;
+    width: 7em;
 }
 
 
@@ -67,7 +73,6 @@ body h2 {
 
 
 #about {
-    background-color: #EE6055;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -85,6 +90,9 @@ body h2 {
 #projects i {
     text-align: center;
 }
+
+
+
 
 .icons {
     text-align: center;
@@ -105,17 +113,17 @@ body h2 {
 
 
 
-.social {
-    margin-bottom: 20px;
-    margin-left: 15px;
+#projects,
+#about,
+#contact {
+    padding: 50px;
 }
-
 
 
 #projects,
 #about,
-#contact {
-    padding-top: 50px;
+#contact h2 {
+    color: black;
 }
 
 #nav {
@@ -128,7 +136,7 @@ body h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .active {
@@ -136,9 +144,9 @@ body h2 {
 }
 
 #nav a {
-    color: lightgray;
+    color:#FFF;
 }
 
 #nav a.active {
-    color: white;
+    color: #30343F;
 }
